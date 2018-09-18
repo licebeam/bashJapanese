@@ -10,3 +10,5 @@ This project is open source using information directly from:
 https://iknow.jp/courses/566921
 
 If you'd like to add to the list of Japanese terms or answer please create a pull request.
+
+英語のクイズもあります add to your bash profile "node Path/to/englishQuiz.js";
