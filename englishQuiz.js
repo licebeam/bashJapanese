@@ -1,4 +1,4 @@
-
+const englishQuestions = require('./english/english100.js');
 var colors = require('colors')
 const readline = require('readline');
 
@@ -11,15 +11,8 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-const japaneseQuestions = [
-  {
-    question: `To go`,
-    answer: 'いく'
-  }
-]
-
 const colorName = (text) => {
-  let currentQuestion = japaneseQuestions[getRandomInt(japaneseQuestions.length)]
+  let currentQuestion = englishQuestions[getRandomInt(englishQuestions.length)]
   console.log(colors.yellow('これの意味は何ですか？') + colors.green(currentQuestion.question));
   rl.question(colors.yellow('答えはなんですか？'), (answer) => {
     if (currentQuestion.answer === answer) {
@@ -29,4 +22,4 @@ const colorName = (text) => {
   });
 }
 
-colorName(japaneseQuestions); 
+colorName(englishQuestions); 
