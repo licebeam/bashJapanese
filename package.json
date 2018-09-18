@@ -1,0 +1,22 @@
+{
+  "name": "bashjapanese",
+  "version": "1.0.0",
+  "description": "Japanese and English Tools",
+  "main": "englishQuiz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/licebeam/bashJapanese.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/licebeam/bashJapanese/issues"
+  },
+  "homepage": "https://github.com/licebeam/bashJapanese#readme",
+  "dependencies": {
+    "colors": "^1.3.2"
+  }
+}
