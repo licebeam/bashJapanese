@@ -1,6 +1,12 @@
 # bashJapanese
 Japanese Quiz for your bash profile 
 
+-Installation: 
+  git clone https://github.com/licebeam/bashJapanese.git
+  cd ~
+  nano .bash_profile (then insert the node command below)
+
+--
 To use, either run it manually from the folder with "node japaneseQuiz"
 
 Or alternatively have it run on every terminal instantiation but navigating to your .bash_profile
