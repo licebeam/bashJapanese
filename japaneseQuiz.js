@@ -1,4 +1,5 @@
 
+const japaneseQuestions = require('./japanese/japanese100.js');
 var colors = require('colors')
 const readline = require('readline');
 
@@ -11,28 +12,6 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-const japaneseQuestions = [
-  {
-    question: `行く | いく | Iku`,
-    answer: 'to go'
-  },
-  {
-    question: `見る | みる | Miru`,
-    answer: 'to see'
-  },
-  {
-    question: `多い | おおい | Ooi`,
-    answer: 'many'
-  },
-  {
-    question: `家 | うち | Uchi`,
-    answer: 'home'
-  },
-  {
-    question: `これ | Kore`,
-    answer: 'this'
-  }
-]
 
 const colorName = (text) => {
   let currentQuestion = japaneseQuestions[getRandomInt(japaneseQuestions.length)]
