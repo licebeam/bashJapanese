@@ -4,7 +4,6 @@ const readline = require('readline');
 let args = minimist(process.argv.slice(2), {
   string: 'deck' // --deck
 })
-console.log(args)
 //in the future this should be imported as some kind of function.
 switch (args.deck) {
   case 'jp1':
