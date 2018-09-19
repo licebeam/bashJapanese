@@ -2,11 +2,11 @@ var minimist = require('minimist');
 var colors = require('colors')
 const readline = require('readline');
 let args = minimist(process.argv.slice(2), {
-  string: 'lang' // --lang
+  string: 'deck' // --deck
 })
-
+console.log(args)
 //in the future this should be imported as some kind of function.
-switch (args.g) {
+switch (args.deck) {
   case 'jp1':
     var questions = require('./japanese/japanese100.js');
     var ask = "What is the meaning of: ";
